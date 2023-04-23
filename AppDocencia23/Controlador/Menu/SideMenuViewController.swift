@@ -19,13 +19,10 @@ class SideMenuViewController: UIViewController {
     var defaultHighlightedCell: Int = 0
     
     var menu: [SideMenuModel] = [
-        SideMenuModel(icon: UIImage(systemName: "house.fill")!, title: "Home"),
-        SideMenuModel(icon: UIImage(systemName: "music.note")!, title: "Music"),
-        SideMenuModel(icon: UIImage(systemName: "film.fill")!, title: "Movies"),
-        SideMenuModel(icon: UIImage(systemName: "book.fill")!, title: "Books"),
-        SideMenuModel(icon: UIImage(systemName: "person.fill")!, title: "Profile"),
-        SideMenuModel(icon: UIImage(systemName: "slider.horizontal.3")!, title: "Settings"),
-        SideMenuModel(icon: UIImage(systemName: "hand.thumbsup.fill")!, title: "Like us")
+        SideMenuModel(icon: UIImage(systemName: "house.fill")!, title: "INICIO"),
+        SideMenuModel(icon: UIImage(systemName: "bubble.middle.bottom")!, title: "NOTIFICACIONES"),
+        SideMenuModel(icon: UIImage(systemName: "person.circle")!, title: "MIS DATOS"),
+        SideMenuModel(icon: UIImage(systemName: "rectangle.portrait.and.arrow.right")!, title: "SALIR")
     ]
     
     override func viewDidLoad() {

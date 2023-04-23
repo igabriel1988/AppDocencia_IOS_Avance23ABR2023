@@ -10,17 +10,13 @@
 import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
-  @IBOutlet weak var label: UILabel!
-  @IBOutlet weak var imageView: UIImageView!
   
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var label2: UILabel!
-    
     @IBOutlet weak var label3: UILabel!
-    
     @IBOutlet weak var label4: UILabel!
-    
     @IBOutlet weak var label5: UILabel!
-    
     @IBOutlet weak var label6: UILabel!
     
     

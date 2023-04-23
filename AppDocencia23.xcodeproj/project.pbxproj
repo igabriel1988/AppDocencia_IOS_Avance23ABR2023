@@ -24,7 +24,6 @@
 		2023D09D29E2450F00E13570 /* AppDocencia23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2023D09C29E2450F00E13570 /* AppDocencia23Tests.swift */; };
 		2023D0A729E2450F00E13570 /* AppDocencia23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2023D0A629E2450F00E13570 /* AppDocencia23UITests.swift */; };
 		2023D0A929E2450F00E13570 /* AppDocencia23UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2023D0A829E2450F00E13570 /* AppDocencia23UITestsLaunchTests.swift */; };
-		2023D0C829E2463E00E13570 /* side-menu.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2023D0C729E2463E00E13570 /* side-menu.gif */; };
 		202F794829F3829300C6A089 /* DisponiblesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F794729F3829300C6A089 /* DisponiblesViewController.swift */; };
 		209BD5FA29F422BA00EAE97E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BD5F929F422BA00EAE97E /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -68,7 +67,6 @@
 		2023D0A229E2450F00E13570 /* AppDocencia23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppDocencia23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2023D0A629E2450F00E13570 /* AppDocencia23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDocencia23UITests.swift; sourceTree = "<group>"; };
 		2023D0A829E2450F00E13570 /* AppDocencia23UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDocencia23UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2023D0C729E2463E00E13570 /* side-menu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "side-menu.gif"; sourceTree = "<group>"; };
 		202F794729F3829300C6A089 /* DisponiblesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisponiblesViewController.swift; sourceTree = "<group>"; };
 		209BD5F929F422BA00EAE97E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,7 +118,6 @@
 		2023D07929E2450D00E13570 = {
 			isa = PBXGroup;
 			children = (
-				2023D0C729E2463E00E13570 /* side-menu.gif */,
 				2023D08429E2450D00E13570 /* AppDocencia23 */,
 				2023D09B29E2450F00E13570 /* AppDocencia23Tests */,
 				2023D0A529E2450F00E13570 /* AppDocencia23UITests */,
@@ -315,7 +312,6 @@
 				2023D09229E2450F00E13570 /* LaunchScreen.storyboard in Resources */,
 				202236B429E247F40051CE50 /* Main.storyboard in Resources */,
 				2023D08F29E2450F00E13570 /* Assets.xcassets in Resources */,
-				2023D0C829E2463E00E13570 /* side-menu.gif in Resources */,
 				202236AF29E247EB0051CE50 /* SideMenuCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,6 +525,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -536,9 +533,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-CENCIA-MAP.AppDocencia23";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -557,6 +557,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -564,9 +565,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-CENCIA-MAP.AppDocencia23";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
